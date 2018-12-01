@@ -2,7 +2,7 @@
 DVPWA -- Damn Vulnerable Python Web Application
 ===============================================
 
-Description
+YanYan Wang-- escription
 ===========
 
 DVPWA was inspired by famous `dvwa`_ project and `bobby-tables xkcd comics`_.
