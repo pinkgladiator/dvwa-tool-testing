@@ -1,0 +1,20 @@
+version: 2
+updates:
+- package-ecosystem: pip
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: aiopg
+    versions:
+    - 1.1.0
+  - dependency-name: hiredis
+    versions:
+    - 1.1.0
+  - dependency-name: pyyaml
+    versions:
+    - "5.1"
+  - dependency-name: jinja2
+    versions:
+    - 2.10.1
